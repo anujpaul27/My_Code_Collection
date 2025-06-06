@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black;">
+
+    <section>
+        <div class="header">
+            <input id="inputBox" class="inputBox" type="text" placeholder="Enter Item Name...">
+            <button id="button" class="button">Search</button>
+        </div>
+    </section>
+
+
+    <!-- show product section  -->
+    <section id="sectionn" class="sectionn">
+
+    </section>
+
+    <div id="mealModal"
+        style=" text-align: center; display: none; position: fixed   ; top: 5%; left: 20%; right: 20%; background: white; padding: 20px; border-radius: 10px;">
+        <button style="margin-left: 700px;" onclick="document.getElementById('mealModal').style.display='none'">Close</button>
+        <br><img id="modalImg" src="" style="align-items: center; width: 300px; height: 300px;">
+        <h2 id="modalTitle"> </h2>
+        <hr>
+        <h4 id="modalInstructions"></h4>
+        <h4 id="modalInstructions1"></h4>
+        <h4 id="modalInstructions2"></h4>
+        <p style="text-align: left;" id="modalInstructions3"></p>
+    </div>
+
+
+    <script src="backend.js"></script>
+
+
+</body>
+
+</html>
